@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 1a67716a7b4f5594ca4d7c27f7a73455
+timeCreated: 1487789841
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cube1_sep87_dark
+    100002: cube1_sep87_default
+    100004: cube1_sep87_glass
+    100006: cube1_sep87_grey_metal_shiny
+    100008: cube1_sep87_mramor
+    100010: cube1_sep87_pink_metal
+    100012: cube1_sep87_pinkwall
+    100014: cube1_sep87_pinkwall2
+    100016: cube1_sep87_pod
+    100018: cube1_sep87_reflectmetal
+    100020: cube1_sep87_shineoutside
+    100022: cube1_sep87_stair_edge
+    100024: cube1_sep87_stinge
+    100026: cube1_sep87_white_lakirano
+    100028: cube1_sep87_zidovi
+    100030: //RootNode
+    400000: cube1_sep87_dark
+    400002: cube1_sep87_default
+    400004: cube1_sep87_glass
+    400006: cube1_sep87_grey_metal_shiny
+    400008: cube1_sep87_mramor
+    400010: cube1_sep87_pink_metal
+    400012: cube1_sep87_pinkwall
+    400014: cube1_sep87_pinkwall2
+    400016: cube1_sep87_pod
+    400018: cube1_sep87_reflectmetal
+    400020: cube1_sep87_shineoutside
+    400022: cube1_sep87_stair_edge
+    400024: cube1_sep87_stinge
+    400026: cube1_sep87_white_lakirano
+    400028: cube1_sep87_zidovi
+    400030: //RootNode
+    2300000: cube1_sep87_dark
+    2300002: cube1_sep87_default
+    2300004: cube1_sep87_glass
+    2300006: cube1_sep87_grey_metal_shiny
+    2300008: cube1_sep87_mramor
+    2300010: cube1_sep87_pink_metal
+    2300012: cube1_sep87_pinkwall
+    2300014: cube1_sep87_pinkwall2
+    2300016: cube1_sep87_pod
+    2300018: cube1_sep87_reflectmetal
+    2300020: cube1_sep87_shineoutside
+    2300022: cube1_sep87_stair_edge
+    2300024: cube1_sep87_stinge
+    2300026: cube1_sep87_white_lakirano
+    2300028: cube1_sep87_zidovi
+    3300000: cube1_sep87_dark
+    3300002: cube1_sep87_default
+    3300004: cube1_sep87_glass
+    3300006: cube1_sep87_grey_metal_shiny
+    3300008: cube1_sep87_mramor
+    3300010: cube1_sep87_pink_metal
+    3300012: cube1_sep87_pinkwall
+    3300014: cube1_sep87_pinkwall2
+    3300016: cube1_sep87_pod
+    3300018: cube1_sep87_reflectmetal
+    3300020: cube1_sep87_shineoutside
+    3300022: cube1_sep87_stair_edge
+    3300024: cube1_sep87_stinge
+    3300026: cube1_sep87_white_lakirano
+    3300028: cube1_sep87_zidovi
+    4300000: cube1_sep87_dark
+    4300002: cube1_sep87_default
+    4300004: cube1_sep87_glass
+    4300006: cube1_sep87_grey_metal_shiny
+    4300008: cube1_sep87_mramor
+    4300010: cube1_sep87_pink_metal
+    4300012: cube1_sep87_pinkwall
+    4300014: cube1_sep87_pinkwall2
+    4300016: cube1_sep87_pod
+    4300018: cube1_sep87_reflectmetal
+    4300020: cube1_sep87_shineoutside
+    4300022: cube1_sep87_stair_edge
+    4300024: cube1_sep87_stinge
+    4300026: cube1_sep87_white_lakirano
+    4300028: cube1_sep87_zidovi
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.8
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
