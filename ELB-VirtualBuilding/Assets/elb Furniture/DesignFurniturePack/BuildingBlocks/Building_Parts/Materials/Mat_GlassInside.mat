@@ -31,7 +31,7 @@ Material:
     - _InvFade: 1
     - _Shininess: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0.3647059}
+    - _Color: {r: 0.38235295, g: 0.036548432, b: 0.036548432, a: 0.3647059}
     - _Emission: {r: 0.9029851, g: 0.9029851, b: 0.9029851, a: 0}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
