@@ -58,6 +58,7 @@ namespace UnitySampleAssets.Characters.FirstPerson
             _stepCycle = 0f;
             _nextStep = _stepCycle/2f;
             _jumping = false;
+            Cursor.visible = false;
         }
 
         // Update is called once per frame
