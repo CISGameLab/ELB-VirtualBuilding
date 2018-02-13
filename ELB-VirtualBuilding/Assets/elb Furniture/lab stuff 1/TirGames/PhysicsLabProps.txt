@@ -1,5 +1,0 @@
-PhysicsLabProps v1.0
-
-Package include:
-- 8 Models of physics lab props
-- 10 wire types in 3 colors
