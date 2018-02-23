@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4356726719496312}
   - component: {fileID: 33124962453723488}
   - component: {fileID: 23357419983419226}
-  - component: {fileID: 95482915321863036}
   m_Layer: 0
   m_Name: chair_2
   m_TagString: Untagged
@@ -36,8 +35,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1864715237868954}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 422.82703, y: 1.0000966, z: 198.73631}
-  m_LocalScale: {x: 1.35, y: 1.35, z: 1.35}
+  m_LocalPosition: {x: 422.391, y: 1, z: 199.033}
+  m_LocalScale: {x: 1.5, y: 1.35, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -83,20 +82,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1864715237868954}
   m_Mesh: {fileID: 4300024, guid: 85e66433053800f408654db9a1921a55, type: 3}
---- !u!95 &95482915321863036
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1864715237868954}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 85e66433053800f408654db9a1921a55, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1

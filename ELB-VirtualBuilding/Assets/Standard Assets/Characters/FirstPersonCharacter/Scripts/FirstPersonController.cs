@@ -66,9 +66,7 @@ namespace UnitySampleAssets.Characters.FirstPerson
         {
             RotateView();
             // the jump state needs to read here to make sure it is not missed
-            if (!_jump)
-                _jump = CrossPlatformInputManager.GetButtonDown("Jump");
-
+           
             if (!_previouslyGrounded && _characterController.isGrounded)
             {
                 StartCoroutine(_jumpBob.DoBobCycle());

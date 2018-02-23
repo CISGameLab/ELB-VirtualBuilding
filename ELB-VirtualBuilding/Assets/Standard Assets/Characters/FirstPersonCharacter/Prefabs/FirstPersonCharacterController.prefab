@@ -43,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 394, y: 1.1305, z: 205}
+  m_LocalPosition: {x: 394, y: 2.529, z: 205}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
@@ -81,7 +81,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 95
+  field of view: 65
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -140,7 +140,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.1636658
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -216,16 +216,16 @@ MonoBehaviour:
   walkSpeed: 8
   runSpeed: 12
   runstepLenghten: 0.61
-  jumpSpeed: 35
+  jumpSpeed: 0
   stickToGroundForce: 10
   _gravityMultiplier: 0.25
   _mouseLook:
-    XSensitivity: 7.5
-    YSensitivity: 7.5
+    XSensitivity: 1.5
+    YSensitivity: 1.5
     MinimumX: -360
     MaximumX: 360
-    MinimumY: -75
-    MaximumY: 75
+    MinimumY: -45
+    MaximumY: 35
     smooth: 0
     smoothtime: 0
   useFOVKick: 1
@@ -253,7 +253,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  useHeadBob: 1
+  useHeadBob: 0
   _headBob:
     HorizontalBobRange: 0.1
     VerticalBobRange: 0.1
