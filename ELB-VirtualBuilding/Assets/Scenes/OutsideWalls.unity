@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: a96a939fdbf16ab47a6d4f5143a37ac5
+  m_OcclusionCullingData: {fileID: 36300000, guid: fd722ae0a282f7144a45c0dcc52ae187,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -145,7 +146,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: f2e6f173a88c0034c81b81dac9919d1e, type: 2}
+  - {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1069,7 +1070,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: a6e22c83ce5b862488655e6fff259bca, type: 2}
+  - {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
