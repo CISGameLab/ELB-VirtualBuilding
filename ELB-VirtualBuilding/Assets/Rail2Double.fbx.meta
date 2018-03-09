@@ -19,7 +19,12 @@ ModelImporter:
     3300002: rt03.001
     4300000: rt03.001
     4300002: rt03
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass rail.002
+    second: {fileID: 2100000, guid: 1fc3089e55bf730469115e054da2b029, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
