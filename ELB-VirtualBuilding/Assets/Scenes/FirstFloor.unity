@@ -834,6 +834,14 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1.8371652
       objectReference: {fileID: 0}
+    - target: {fileID: 1370407905383480, guid: bc9ac47454e51284da4ef2cddb9a1c31, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1174782146583148, guid: bc9ac47454e51284da4ef2cddb9a1c31, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bc9ac47454e51284da4ef2cddb9a1c31, type: 2}
   m_IsPrefabParent: 0
@@ -963,7 +971,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 87052367}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 400.42, y: 8.15, z: 208.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5543,7 +5551,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &538900486
 MeshRenderer:
@@ -8724,7 +8732,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-147724
+  m_Name: pb_Mesh35754
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -9502,7 +9510,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-200088
+  m_Name: pb_Mesh36388
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -15475,7 +15483,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-259830
+  m_Name: pb_Mesh35792
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
