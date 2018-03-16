@@ -1074,7 +1074,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
+      objectReference: {fileID: 2100000, guid: 1fc3089e55bf730469115e054da2b029, type: 2}
     - target: {fileID: 100000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Name
       value: Rail2 (6)
@@ -2875,8 +2875,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 366875860}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.908, y: -0.8342304, z: -14.391}
-  m_LocalScale: {x: 77.48991, y: 1, z: 20.918468}
+  m_LocalPosition: {x: 30.958, y: -0.8342304, z: -14.391}
+  m_LocalScale: {x: 77.390976, y: 1, z: 20.918468}
   m_Children: []
   m_Father: {fileID: 2025745501}
   m_RootOrder: 3
@@ -3183,11 +3183,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4483670329362442, guid: 0350f0c161fed2049bf1805d4155e30e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 361.4
+      value: 360.7
       objectReference: {fileID: 0}
     - target: {fileID: 4483670329362442, guid: 0350f0c161fed2049bf1805d4155e30e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 12.68
+      value: 13.7
       objectReference: {fileID: 0}
     - target: {fileID: 4483670329362442, guid: 0350f0c161fed2049bf1805d4155e30e, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3227,6 +3227,11 @@ Prefab:
       propertyPath: m_Name
       value: Pipe
       objectReference: {fileID: 0}
+    - target: {fileID: 23952451719345284, guid: 0350f0c161fed2049bf1805d4155e30e,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d918f58c7fade5b40917586396a9bad3, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0350f0c161fed2049bf1805d4155e30e, type: 2}
   m_IsPrefabParent: 0
@@ -4614,8 +4619,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 447727797}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 79.30524, y: -0.8342304, z: 5.669464}
-  m_LocalScale: {x: 61.576225, y: 1, z: 19.510893}
+  m_LocalPosition: {x: 79.237, y: -0.8342304, z: 5.584}
+  m_LocalScale: {x: 61.40564, y: 1, z: 19.37271}
   m_Children: []
   m_Father: {fileID: 2025745501}
   m_RootOrder: 5
@@ -5059,7 +5064,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-89550
+  m_Name: pb_Mesh-180484
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -5484,7 +5489,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
+      objectReference: {fileID: 2100000, guid: 1fc3089e55bf730469115e054da2b029, type: 2}
     - target: {fileID: 100000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Name
       value: Rail2 (3)
@@ -7708,8 +7713,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 723456843}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -21.3404, y: 14.658063, z: -3.7000036}
-  m_LocalScale: {x: 0.1, y: 4, z: 11.5887}
+  m_LocalPosition: {x: -21.3442, y: 14.658063, z: -3.7000036}
+  m_LocalScale: {x: 0.1, y: 4, z: 11.595731}
   m_Children: []
   m_Father: {fileID: 1697351637}
   m_RootOrder: 0
@@ -8123,8 +8128,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 827689166}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 35.4393, y: 14.658063, z: 17.500006}
-  m_LocalScale: {x: 0.1, y: 4, z: 37.17978}
+  m_LocalPosition: {x: 31.269, y: 14.658063, z: 17.500006}
+  m_LocalScale: {x: 0.1, y: 4, z: 28.838394}
   m_Children: []
   m_Father: {fileID: 1697351637}
   m_RootOrder: 18
@@ -8298,7 +8303,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
+      objectReference: {fileID: 2100000, guid: 1fc3089e55bf730469115e054da2b029, type: 2}
     - target: {fileID: 100000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Name
       value: Rail2 (2)
@@ -10428,8 +10433,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1150291664}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.600739, y: -0.8342304, z: 27.613}
-  m_LocalScale: {x: 15.182116, y: 0.99999994, z: 7.88107}
+  m_LocalPosition: {x: -15.421, y: -0.8342304, z: 27.613}
+  m_LocalScale: {x: 15.540391, y: 0.99999994, z: 7.88107}
   m_Children: []
   m_Father: {fileID: 2025745501}
   m_RootOrder: 6
@@ -10890,8 +10895,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1207037740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44.418243, y: -0.8342304, z: -30.752548}
-  m_LocalScale: {x: 88.9998, y: 1, z: 11.821756}
+  m_LocalPosition: {x: 44.2531, y: -0.8342304, z: -30.752548}
+  m_LocalScale: {x: 89.33002, y: 1, z: 11.821756}
   m_Children: []
   m_Father: {fileID: 2025745501}
   m_RootOrder: 4
@@ -11026,7 +11031,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
+      objectReference: {fileID: 2100000, guid: 1fc3089e55bf730469115e054da2b029, type: 2}
     - target: {fileID: 400000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.09999997
@@ -12109,8 +12114,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1360563031}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 65.33, y: -0.8342304, z: 32.456}
-  m_LocalScale: {x: 8.459268, y: 1, z: 7.9293947}
+  m_LocalPosition: {x: 65.207, y: -0.8342304, z: 32.376}
+  m_LocalScale: {x: 8.70501, y: 1, z: 7.8218813}
   m_Children: []
   m_Father: {fileID: 2025745501}
   m_RootOrder: 7
@@ -12442,7 +12447,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
+      objectReference: {fileID: 2100000, guid: 1fc3089e55bf730469115e054da2b029, type: 2}
     - target: {fileID: 100000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Name
       value: Rail2 (1)
@@ -12599,7 +12604,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 135c502e07754fa48903bde725957c35, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -31.36
+      value: -31.161
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 135c502e07754fa48903bde725957c35, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12788,6 +12793,22 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: d490bb5d8a94a2a4d94ccab472185b69, type: 3}
   m_PrefabInternal: {fileID: 1431347406}
+--- !u!1 &1431657971 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: bad954a2b5a4c924e94e888900d98bb9, type: 3}
+  m_PrefabInternal: {fileID: 1784071094}
+--- !u!65 &1431657972
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1431657971}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3657739, y: 0.7573519, z: 0.96490604}
+  m_Center: {x: 0.000030517578, y: 0.37867594, z: 0.000030517578}
 --- !u!1001 &1432160227
 Prefab:
   m_ObjectHideFlags: 0
@@ -12908,7 +12929,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 135c502e07754fa48903bde725957c35, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
+      objectReference: {fileID: 2100000, guid: 1fc3089e55bf730469115e054da2b029, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 135c502e07754fa48903bde725957c35, type: 3}
   m_IsPrefabParent: 0
@@ -13020,7 +13041,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
+      objectReference: {fileID: 2100000, guid: 1fc3089e55bf730469115e054da2b029, type: 2}
     - target: {fileID: 100000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Name
       value: Rail2 (4)
@@ -14064,8 +14085,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1639421195}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -9.1836, y: 14.658063, z: 17.490005}
-  m_LocalScale: {x: 0.1, y: 4, z: 45.28905}
+  m_LocalPosition: {x: -8.961, y: 14.658063, z: 17.490005}
+  m_LocalScale: {x: 0.1, y: 4, z: 44.844067}
   m_Children: []
   m_Father: {fileID: 1697351637}
   m_RootOrder: 23
@@ -14865,7 +14886,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
+      objectReference: {fileID: 2100000, guid: 1fc3089e55bf730469115e054da2b029, type: 2}
     - target: {fileID: 100000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Name
       value: Rail2 (7)
@@ -15426,8 +15447,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1847951815}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44.225, y: 2.59, z: -30.752548}
-  m_LocalScale: {x: 89.38644, y: 1, z: 11.82176}
+  m_LocalPosition: {x: 44.225, y: 2.59, z: -30.717}
+  m_LocalScale: {x: 89.38653, y: 1, z: 11.893995}
   m_Children: []
   m_Father: {fileID: 2025745501}
   m_RootOrder: 8
@@ -15686,8 +15707,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1854457058}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.522247, y: -0.8342304, z: 25.421463}
-  m_LocalScale: {x: 69.163574, y: 1, z: 31.374022}
+  m_LocalPosition: {x: 26.62, y: -0.8342304, z: 25.474}
+  m_LocalScale: {x: 68.55139, y: 1, z: 31.480572}
   m_Children: []
   m_Father: {fileID: 2025745501}
   m_RootOrder: 1
@@ -15905,7 +15926,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ba5a32e67f0204ea25f292cf921f33, type: 2}
+      objectReference: {fileID: 2100000, guid: 1fc3089e55bf730469115e054da2b029, type: 2}
     - target: {fileID: 100000, guid: 44a2bf22da2a9f7448557d5d4e20f095, type: 3}
       propertyPath: m_Name
       value: Rail2 (5)
@@ -17117,8 +17138,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2062747441}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40.57, y: 2.5900002, z: -19.96}
-  m_LocalScale: {x: 96.6966, y: 1, z: 9.900433}
+  m_LocalPosition: {x: 40.57, y: 2.5900002, z: -19.85}
+  m_LocalScale: {x: 96.69669, y: 1, z: 9.916088}
   m_Children: []
   m_Father: {fileID: 2025745501}
   m_RootOrder: 9

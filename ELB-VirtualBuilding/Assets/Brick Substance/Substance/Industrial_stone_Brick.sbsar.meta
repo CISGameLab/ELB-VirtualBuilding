@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6d125bb81c018a040b46508761a01004
-timeCreated: 1519533775
+timeCreated: 1521230592
 licenseType: Free
 SubstanceImporter:
   externalObjects: {}
@@ -234,15 +234,15 @@ SubstanceImporter:
     - shaderProp: _BumpMap
       material: {instanceID: 0}
       baseUID: 177872393
-    - shaderProp: _ParallaxMap
-      material: {instanceID: 0}
-      baseUID: 177872389
-    - shaderProp: _OcclusionMap
-      material: {instanceID: 0}
-      baseUID: 177872384
     - shaderProp: _MetallicGlossMap
       material: {instanceID: 0}
       baseUID: 177872387
+    - shaderProp: _OcclusionMap
+      material: {instanceID: 0}
+      baseUID: 177872384
+    - shaderProp: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 177872389
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
@@ -475,15 +475,15 @@ SubstanceImporter:
     - shaderProp: _BumpMap
       material: {instanceID: 0}
       baseUID: 177872393
-    - shaderProp: _ParallaxMap
-      material: {instanceID: 0}
-      baseUID: 177872389
-    - shaderProp: _OcclusionMap
-      material: {instanceID: 0}
-      baseUID: 177872384
     - shaderProp: _MetallicGlossMap
       material: {instanceID: 0}
       baseUID: 177872387
+    - shaderProp: _OcclusionMap
+      material: {instanceID: 0}
+      baseUID: 177872384
+    - shaderProp: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 177872389
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
@@ -719,15 +719,15 @@ SubstanceImporter:
     - shaderProp: _BumpMap
       material: {instanceID: 0}
       baseUID: 177872393
-    - shaderProp: _ParallaxMap
-      material: {instanceID: 0}
-      baseUID: 177872389
-    - shaderProp: _OcclusionMap
-      material: {instanceID: 0}
-      baseUID: 177872384
     - shaderProp: _MetallicGlossMap
       material: {instanceID: 0}
       baseUID: 177872387
+    - shaderProp: _OcclusionMap
+      material: {instanceID: 0}
+      baseUID: 177872384
+    - shaderProp: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 177872389
     buildTargetSettings:
     - serializedVersion: 2
       buildTarget: 
