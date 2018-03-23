@@ -11,6 +11,7 @@ namespace UnitySampleAssets.Characters.FirstPerson
 
         //////////////////////// exposed privates ///////////////////////
         [SerializeField] private bool _isWalking;
+         [SerializeField] private bool allowMouseLook;
         [SerializeField] private float walkSpeed;
         [SerializeField] private float runSpeed;
         [SerializeField] [Range(0f, 1f)] private float runstepLenghten;
@@ -64,7 +65,40 @@ namespace UnitySampleAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
-            RotateView();
+            if(!allowMouseLook)
+            {
+                if (Input.GetKey(KeyCode.I)||Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.PageUp))
+                {
+                    //_camera.transform.Rotate(new Vector3(0,1,0));
+                    _camera.transform.rotation = Quaternion.Euler(_camera.transform.rotation.eulerAngles.x-1,_camera.transform.rotation.eulerAngles.y,0);
+
+                }
+                else if (Input.GetKey(KeyCode.K)||Input.GetKey(KeyCode.DownArrow)|| Input.GetKey(KeyCode.PageDown))
+                {
+                    //_camera.transform.Rotate(new Vector3(0,1,0));
+                    _camera.transform.rotation = Quaternion.Euler(_camera.transform.rotation.eulerAngles.x+1,_camera.transform.rotation.eulerAngles.y,0);
+
+                }
+                else if (Input.GetKey(KeyCode.J)||Input.GetKey(KeyCode.LeftArrow))
+                {
+                    //_camera.transform.Rotate(new Vector3(0,1,0));
+                    _camera.transform.rotation = Quaternion.Euler(_camera.transform.rotation.eulerAngles.x,_camera.transform.rotation.eulerAngles.y-1,0);
+
+                }
+                else if (Input.GetKey(KeyCode.L)||Input.GetKey(KeyCode.RightArrow))
+                {
+                    //_camera.transform.Rotate(new Vector3(0,-1,0));
+                    _camera.transform.rotation = Quaternion.Euler(_camera.transform.rotation.eulerAngles.x,_camera.transform.rotation.eulerAngles.y+1,0);
+                }
+                else
+                {
+                    RotateView();
+                }
+            }
+            else
+            {
+                RotateView();
+            }
             // the jump state needs to read here to make sure it is not missed
            
             if (!_previouslyGrounded && _characterController.isGrounded)
@@ -78,7 +112,7 @@ namespace UnitySampleAssets.Characters.FirstPerson
             {
                 _moveDir.y = 0f;
             }
-
+          
             _previouslyGrounded = _characterController.isGrounded;
         }
 
@@ -217,11 +251,11 @@ namespace UnitySampleAssets.Characters.FirstPerson
             Vector2 mouseInput = _mouseLook.Clamped(_yRotation, transform.localEulerAngles.y);
 
             // handle the roation round the x axis on the camera
-            _camera.transform.localEulerAngles = new Vector3(-mouseInput.y, _camera.transform.localEulerAngles.y,
+            _camera.transform.localEulerAngles = new Vector3(_camera.transform.localEulerAngles.x, _camera.transform.localEulerAngles.y,
                                                              _camera.transform.localEulerAngles.z);
             _yRotation = mouseInput.y;
             transform.localEulerAngles = new Vector3(0, mouseInput.x, 0);
-            _cameraRefocus.GetFocusPoint();
+           _cameraRefocus.GetFocusPoint();
         }
 
         private void OnControllerColliderHit(ControllerColliderHit hit)
