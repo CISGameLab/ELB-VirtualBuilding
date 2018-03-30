@@ -8391,15 +8391,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b6d7f16a4011f746bb8b352fba5fe4e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.005029
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b6d7f16a4011f746bb8b352fba5fe4e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 21.285183
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b6d7f16a4011f746bb8b352fba5fe4e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 21.280624
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6b6d7f16a4011f746bb8b352fba5fe4e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
