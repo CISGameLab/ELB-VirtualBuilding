@@ -70,6 +70,8 @@ namespace UnitySampleAssets.Characters.FirstPerson
                 {
                     //_camera.transform.Rotate(new Vector3(0,1,0));
                     _camera.transform.rotation = Quaternion.Euler(_camera.transform.rotation.eulerAngles.x-1,_camera.transform.rotation.eulerAngles.y,0);
+                    transform.localEulerAngles = new Vector3(0, _camera.transform.rotation.x, 0);
+                    //_cameraRefocus.GetFocusPoint();
 
                 }
                 else if (Input.GetKey(KeyCode.K)||Input.GetKey(KeyCode.DownArrow)|| Input.GetKey(KeyCode.PageDown))
@@ -249,7 +251,7 @@ namespace UnitySampleAssets.Characters.FirstPerson
                                                              _camera.transform.localEulerAngles.z);
             _yRotation = mouseInput.y;
             transform.localEulerAngles = new Vector3(0, mouseInput.x, 0);
-            _cameraRefocus.GetFocusPoint();
+           // _cameraRefocus.GetFocusPoint();
         }
 
         private void OnControllerColliderHit(ControllerColliderHit hit)

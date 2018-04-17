@@ -806,8 +806,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 426.4206, y: 1, z: 206.203}
   m_LocalScale: {x: 0.6743698, y: 0.88, z: 0.2}
-  m_Children:
-  - {fileID: 1320172546}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3316,50 +3315,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a4b95889855801f419c48a3695236759, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1320172545
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 1563921224927900, guid: 27a62b71fb70d1f4cb11c21d0e1dcc14,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1320172546}
-  - component: {fileID: 1320172547}
-  m_Layer: 0
-  m_Name: Collider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1320172546
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 4111801161300172, guid: 27a62b71fb70d1f4cb11c21d0e1dcc14,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1320172545}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 67516315}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1320172547
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65238524230552572, guid: 27a62b71fb70d1f4cb11c21d0e1dcc14,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1320172545}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.7707685, y: 2.7334092, z: 1}
-  m_Center: {x: 2.0048647, y: 1.4968733, z: 0}
 --- !u!1001 &1343703758
 Prefab:
   m_ObjectHideFlags: 0
@@ -5599,7 +5554,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-15868
+  m_Name: pb_Mesh32914
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
