@@ -776,7 +776,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1364046886778352, guid: 3f7351324486597409e24832cd9d29c4, type: 2}
       propertyPath: m_Name
-      value: Weiser Family Atrium1
+      value: Weiser Family Atrium
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f7351324486597409e24832cd9d29c4, type: 2}
@@ -843,11 +843,11 @@ Prefab:
     - target: {fileID: 114874665264972896, guid: 3f7351324486597409e24832cd9d29c4,
         type: 2}
       propertyPath: roomName
-      value: Power Egineering Lab
+      value: Power Engineering Lab
       objectReference: {fileID: 0}
     - target: {fileID: 1364046886778352, guid: 3f7351324486597409e24832cd9d29c4, type: 2}
       propertyPath: m_Name
-      value: Power Egineering Lab
+      value: Power Engineering Lab
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f7351324486597409e24832cd9d29c4, type: 2}
@@ -1222,7 +1222,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1364046886778352, guid: 3f7351324486597409e24832cd9d29c4, type: 2}
       propertyPath: m_Name
-      value: Weiser Family Atrium1 (1)
+      value: Weiser Family Atrium
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f7351324486597409e24832cd9d29c4, type: 2}
@@ -1547,7 +1547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.57100004, y: 0.028312612}
   m_AnchorMax: {x: 0.9764118, y: 0.12882815}
-  m_AnchoredPosition: {x: -1.1000061, y: 1.6000061}
+  m_AnchoredPosition: {x: -1.0999756, y: 1.6000061}
   m_SizeDelta: {x: 2.899994, y: -1.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2062059539

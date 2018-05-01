@@ -5,7 +5,6 @@ using TMPro;
 public class RoomNameSwitcher : MonoBehaviour {
 
 	public TextMeshProUGUI text;
-	public string roomName;
 
 	public void Start()
 	{
@@ -14,7 +13,7 @@ public class RoomNameSwitcher : MonoBehaviour {
 	public void OnTriggerEnter(Collider col)
 	{
 		if(col.gameObject.tag == "Player")
-			text.text = roomName;
+			text.text = this.gameObject.name;
 	}
 
 	/*	public void OnTriggerExit(Collider col)
