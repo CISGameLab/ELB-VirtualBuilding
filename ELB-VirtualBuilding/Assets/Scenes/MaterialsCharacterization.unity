@@ -2368,6 +2368,21 @@ Prefab:
       propertyPath: m_Name
       value: Table (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 2.2466688
+      objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.15752935
+      objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Center.x
+      value: -0.2238641
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a, type: 2}
   m_IsPrefabParent: 0
@@ -3520,6 +3535,21 @@ Prefab:
       propertyPath: m_Name
       value: Table (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 2.0318327
+      objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.15752935
+      objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Center.x
+      value: 0.11357732
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a, type: 2}
   m_IsPrefabParent: 0
@@ -3843,6 +3873,21 @@ Prefab:
     - target: {fileID: 1114614465865912, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a, type: 2}
       propertyPath: m_Name
       value: Table (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.15752935
+      objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 4.1087523
+      objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Center.z
+      value: 0.5594239
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a, type: 2}

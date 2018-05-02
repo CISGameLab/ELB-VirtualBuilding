@@ -38,7 +38,6 @@ GameObject:
   - component: {fileID: 4305144281150374}
   - component: {fileID: 33628240534284790}
   - component: {fileID: 23359653956193840}
-  - component: {fileID: 65921509739137982}
   m_Layer: 0
   m_Name: cube10_Metal
   m_TagString: Untagged
@@ -80,15 +79,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1806343089568604}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -21.934662, y: -0.7260001, z: -21.269531}
-  m_LocalScale: {x: 1.0618604, y: 0.90937, z: 0.73008025}
+  m_LocalRotation: {x: -0, y: 0.25508136, z: -0, w: 0.9669196}
+  m_LocalPosition: {x: 467.1643, y: 1.3230789, z: 219.8717}
+  m_LocalScale: {x: 0.89943475, y: 0.90937, z: 0.92590666}
   m_Children:
   - {fileID: 4580182675178778}
   - {fileID: 4305144281150374}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 29.557001, z: 0}
 --- !u!4 &4580182675178778
 Transform:
   m_ObjectHideFlags: 1
@@ -184,15 +183,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1081514203663580}
   m_Mesh: {fileID: 4300000, guid: d490bb5d8a94a2a4d94ccab472185b69, type: 3}
---- !u!65 &65921509739137982
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1146814647515456}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.46641815, y: 1.3839164, z: 0.88011366}
-  m_Center: {x: 0.1140768, y: 0.3688792, z: -0.033933114}

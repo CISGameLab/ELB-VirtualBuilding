@@ -1545,6 +1545,21 @@ Prefab:
       propertyPath: m_Name
       value: Table (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 2.2552214
+      objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.15752935
+      objectReference: {fileID: 0}
+    - target: {fileID: 65521370883894790, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a,
+        type: 2}
+      propertyPath: m_Center.x
+      value: 0.22527166
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ae3c7e1cf7e02847bcc2ef71cb0d37a, type: 2}
   m_IsPrefabParent: 0
