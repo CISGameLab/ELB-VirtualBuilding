@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnitySampleAssets.CrossPlatformInput;
 using UnitySampleAssets.Utility;
+using UnityEngine.SceneManagement;
 
 namespace UnitySampleAssets.Characters.FirstPerson
 {
@@ -65,7 +66,15 @@ namespace UnitySampleAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
-          
+                if(Input.GetKey(KeyCode.Escape)) //Exiting the Game for Windows
+                {
+                    Application.Quit();
+                }
+                if(Input.GetKey(KeyCode.R)) //Resetting the scene
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
+                }
+
                 if (Input.GetKey(KeyCode.I)||Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.PageUp))
                 {
                     //_camera.transform.Rotate(new Vector3(0,1,0));
