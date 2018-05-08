@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="GAME LAB VO_data" version="1.3.0" audacityversion="2.1.3" sel0="16.6022675737" sel1="16.6022675737" vpos="0" h="4.9110204082" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="Audio Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="7.03335601">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="421989">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000455.au" len="262144" min="-0.404563" max="0.48914" rms="0.044556"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e00005cd.au" len="159845" min="-0.414177" max="0.445247" rms="0.040614"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Audio Track" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="-0.06034014">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="336384">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000246.au" len="242688" min="-0.442169" max="0.3487" rms="0.039279"/>
+				</waveblock>
+				<waveblock start="242688">
+					<simpleblockfile filename="e00004af.au" len="93696" min="-0.237677" max="0.251545" rms="0.022221"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
