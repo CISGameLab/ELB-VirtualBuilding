@@ -464,6 +464,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1185529956
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4414481957408058, guid: e4fdb76bfaa2a3b419048dd287033a77, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 418.4643
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414481957408058, guid: e4fdb76bfaa2a3b419048dd287033a77, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.796976
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414481957408058, guid: e4fdb76bfaa2a3b419048dd287033a77, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 180.34927
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414481957408058, guid: e4fdb76bfaa2a3b419048dd287033a77, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414481957408058, guid: e4fdb76bfaa2a3b419048dd287033a77, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414481957408058, guid: e4fdb76bfaa2a3b419048dd287033a77, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414481957408058, guid: e4fdb76bfaa2a3b419048dd287033a77, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414481957408058, guid: e4fdb76bfaa2a3b419048dd287033a77, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1331538153757792, guid: e4fdb76bfaa2a3b419048dd287033a77, type: 2}
+      propertyPath: m_Name
+      value: SpeakerandButton
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e4fdb76bfaa2a3b419048dd287033a77, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1223098581
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,7 +694,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_Volume
-      value: 0.682
+      value: 0.066
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: _isWalking
