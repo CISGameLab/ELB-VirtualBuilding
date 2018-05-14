@@ -1,0 +1,21 @@
+Changelog
+
+Alpha 1.1
+-Base changes to squirrels
+-More Gen 7 Pokemon added into the wild
+-Changed Bellin Town Alolan Vulpix to Riolu
+-All available Pokemon have working Pokedex entries
+-Sandygast respawns
+-Pokemon levels adjusted
+-Beldum has a signature steel move
+-Zygarde Cells implemented
+-Talk to Log immediately after getting his package, no more need to go back to Bellin Town first
+-All sound related bugs fixed
+-Text fixes
+-Multiplayer functionality restored
+
+Alpha 1.02
+Minor text fixes, fixed a bug where Riolu appeared on Route 1 instead of 2
+
+Alpha 1.01
+Fixed a bug where the expressway workers in Dresco Town would disappear after defeating the gym
