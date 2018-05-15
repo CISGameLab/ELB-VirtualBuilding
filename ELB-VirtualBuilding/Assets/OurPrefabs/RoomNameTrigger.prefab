@@ -35,7 +35,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1364046886778352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 393.9702, y: 0.78, z: 150.71873}
+  m_LocalPosition: {x: 388.64, y: 1.0000305, z: 214.7159}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -51,8 +51,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.7862244, y: 4.8723783, z: 5.94841}
-  m_Center: {x: -2.8931122, y: 1.9361892, z: -2.474205}
+  m_Size: {x: 31.26477, y: 9.6835375, z: 20.873077}
+  m_Center: {x: 9.346161, y: 4.3417687, z: 3.2530212}
 --- !u!114 &114874665264972896
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -65,4 +65,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 0}
-  roomName: 
+  speaker: {fileID: 0}
+  hasPlayed: 0
