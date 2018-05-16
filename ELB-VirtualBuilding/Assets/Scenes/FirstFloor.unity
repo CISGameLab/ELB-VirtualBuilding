@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1564,7 +1564,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 123134988}
   m_LocalRotation: {x: 0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3499932, y: 3.2339935, z: 1.2139287}
+  m_LocalPosition: {x: 2.371, y: 3.09, z: 0.119}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 216006226}
@@ -2066,6 +2066,7 @@ GameObject:
   - component: {fileID: 216006229}
   - component: {fileID: 216006228}
   - component: {fileID: 216006227}
+  - component: {fileID: 216006230}
   m_Layer: 0
   m_Name: ElevatorUp2
   m_TagString: Untagged
@@ -2081,8 +2082,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 216006225}
   m_LocalRotation: {x: -0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.94499856, y: 2.4519997, z: 0.9440757}
-  m_LocalScale: {x: 0.99999994, y: 1.0000019, z: 0.9999991}
+  m_LocalPosition: {x: -1.434, y: 2.425, z: 1.185}
+  m_LocalScale: {x: 1.2751793, y: 1.0644569, z: 2.9170868}
   m_Children:
   - {fileID: 123134989}
   m_Father: {fileID: 861082959}
@@ -2146,6 +2147,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 216006225}
   m_Mesh: {fileID: 4300002, guid: 985cd6d57cb8650408d3496bcdccd54c, type: 3}
+--- !u!114 &216006230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 216006225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f2ec549f83e049ad8e3a5257fc392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawnPoints: {fileID: 123134989}
 --- !u!1001 &226978835
 Prefab:
   m_ObjectHideFlags: 0
@@ -4574,7 +4588,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 465314937}
   m_LocalRotation: {x: 0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.828718, y: -2.1549964, z: 1.0480038}
+  m_LocalPosition: {x: -2.456, y: -2.155, z: 0.097}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 945029563}
@@ -5056,6 +5070,7 @@ GameObject:
   - component: {fileID: 510847489}
   - component: {fileID: 510847488}
   - component: {fileID: 510847487}
+  - component: {fileID: 510847490}
   m_Layer: 0
   m_Name: ElevatorDown1
   m_TagString: Untagged
@@ -5071,8 +5086,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 510847485}
   m_LocalRotation: {x: -0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.94499856, y: 2.473, z: 1.0260001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.006401, y: 2.473, z: 1.1419975}
+  m_LocalScale: {x: 1.2695334, y: 1, z: 2.8713574}
   m_Children:
   - {fileID: 1661834020}
   m_Father: {fileID: 1711702202}
@@ -5136,6 +5151,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 510847485}
   m_Mesh: {fileID: 4300002, guid: 985cd6d57cb8650408d3496bcdccd54c, type: 3}
+--- !u!114 &510847490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 510847485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f2ec549f83e049ad8e3a5257fc392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawnPoints: {fileID: 1661834020}
 --- !u!1001 &515787410
 Prefab:
   m_ObjectHideFlags: 0
@@ -5435,7 +5463,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 544143778}
   m_LocalRotation: {x: 0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.921, y: 3.2339933, z: 1.2139287}
+  m_LocalPosition: {x: 0.7139951, y: 3.2339933, z: 0.11892831}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1301924228}
@@ -8403,6 +8431,7 @@ GameObject:
   - component: {fileID: 771016837}
   - component: {fileID: 771016836}
   - component: {fileID: 771016835}
+  - component: {fileID: 771016838}
   m_Layer: 0
   m_Name: ElevatorUp1
   m_TagString: Untagged
@@ -8418,8 +8447,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 771016833}
   m_LocalRotation: {x: -0.000000059604645, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.94499767, y: 0.05474932, z: 0.94407725}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.995, y: 0.054749, z: 1.201}
+  m_LocalScale: {x: 1.2753311, y: 1, z: 2.1435447}
   m_Children:
   - {fileID: 1455501352}
   m_Father: {fileID: 861082959}
@@ -8483,6 +8512,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 771016833}
   m_Mesh: {fileID: 4300004, guid: 985cd6d57cb8650408d3496bcdccd54c, type: 3}
+--- !u!114 &771016838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771016833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f2ec549f83e049ad8e3a5257fc392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawnPoints: {fileID: 1455501352}
 --- !u!1001 &781574812
 Prefab:
   m_ObjectHideFlags: 0
@@ -11408,6 +11450,7 @@ GameObject:
   - component: {fileID: 945029566}
   - component: {fileID: 945029565}
   - component: {fileID: 945029564}
+  - component: {fileID: 945029567}
   m_Layer: 0
   m_Name: ElevatorDown1
   m_TagString: Untagged
@@ -11423,8 +11466,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 945029562}
   m_LocalRotation: {x: -0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.94499856, y: 2.473, z: 1.0260001}
-  m_LocalScale: {x: 0.99999994, y: 1.0000019, z: 0.9999991}
+  m_LocalPosition: {x: 1.393, y: 2.473, z: 1.142}
+  m_LocalScale: {x: 1.2695333, y: 1.0000019, z: 2.871355}
   m_Children:
   - {fileID: 465314938}
   m_Father: {fileID: 1711702202}
@@ -11488,6 +11531,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 945029562}
   m_Mesh: {fileID: 4300004, guid: 985cd6d57cb8650408d3496bcdccd54c, type: 3}
+--- !u!114 &945029567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 945029562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f2ec549f83e049ad8e3a5257fc392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawnPoints: {fileID: 465314938}
 --- !u!1 &950457618
 GameObject:
   m_ObjectHideFlags: 0
@@ -12754,6 +12810,7 @@ GameObject:
   - component: {fileID: 1053012812}
   - component: {fileID: 1053012811}
   - component: {fileID: 1053012810}
+  - component: {fileID: 1053012813}
   m_Layer: 0
   m_Name: ElevatorDown2
   m_TagString: Untagged
@@ -12769,8 +12826,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1053012808}
   m_LocalRotation: {x: -0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.94499856, y: 5.465, z: 1.0260001}
-  m_LocalScale: {x: 0.99999994, y: 1.0000019, z: 0.9999991}
+  m_LocalPosition: {x: -1.015, y: 5.465, z: 1.128}
+  m_LocalScale: {x: 1.2087771, y: 1.0000019, z: 1.7218049}
   m_Children:
   - {fileID: 1248584485}
   m_Father: {fileID: 1711702202}
@@ -12834,6 +12891,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1053012808}
   m_Mesh: {fileID: 4300002, guid: 985cd6d57cb8650408d3496bcdccd54c, type: 3}
+--- !u!114 &1053012813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1053012808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f2ec549f83e049ad8e3a5257fc392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawnPoints: {fileID: 1248584485}
 --- !u!1001 &1071049724
 Prefab:
   m_ObjectHideFlags: 0
@@ -14717,6 +14787,7 @@ GameObject:
   - component: {fileID: 1301924231}
   - component: {fileID: 1301924230}
   - component: {fileID: 1301924229}
+  - component: {fileID: 1301924232}
   m_Layer: 0
   m_Name: ElevatorUp2
   m_TagString: Untagged
@@ -14732,8 +14803,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1301924227}
   m_LocalRotation: {x: -0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.94499856, y: 2.452, z: 0.9440757}
-  m_LocalScale: {x: 0.99999994, y: 1.0000019, z: 0.9999991}
+  m_LocalPosition: {x: 0.9762034, y: 2.425, z: 1.1849964}
+  m_LocalScale: {x: 1.2751793, y: 1.0644569, z: 2.9170868}
   m_Children:
   - {fileID: 544143779}
   m_Father: {fileID: 861082959}
@@ -14797,6 +14868,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1301924227}
   m_Mesh: {fileID: 4300004, guid: 985cd6d57cb8650408d3496bcdccd54c, type: 3}
+--- !u!114 &1301924232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1301924227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f2ec549f83e049ad8e3a5257fc392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawnPoints: {fileID: 544143779}
 --- !u!1001 &1304256303
 Prefab:
   m_ObjectHideFlags: 0
@@ -15858,8 +15942,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1435536083}
   m_LocalRotation: {x: -0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.94499856, y: 5.484, z: 1.074}
-  m_LocalScale: {x: 0.99999994, y: 1.0000019, z: 0.9999991}
+  m_LocalPosition: {x: -1.253, y: 5.484, z: 1.146}
+  m_LocalScale: {x: 1.1875033, y: 1.0000019, z: 2.7496843}
   m_Children: []
   m_Father: {fileID: 861082959}
   m_RootOrder: 5
@@ -16139,7 +16223,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1454084936}
   m_LocalRotation: {x: 0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.546996, y: 2.4862502, z: 1.2139258}
+  m_LocalPosition: {x: 2.546996, y: 2.486, z: 0.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1627542176}
@@ -16167,7 +16251,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1455501351}
   m_LocalRotation: {x: 0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.65700066, y: 2.48625, z: 1.2139258}
+  m_LocalPosition: {x: 0.65700066, y: 2.486, z: 0.171}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 771016834}
@@ -18115,6 +18199,7 @@ GameObject:
   - component: {fileID: 1627542179}
   - component: {fileID: 1627542178}
   - component: {fileID: 1627542177}
+  - component: {fileID: 1627542180}
   m_Layer: 0
   m_Name: ElevatorUp1
   m_TagString: Untagged
@@ -18130,8 +18215,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1627542175}
   m_LocalRotation: {x: -0.000000059604645, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.94499767, y: 0.05474932, z: 0.94407725}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.4153975, y: 0.054749, z: 1.2010045}
+  m_LocalScale: {x: 1.2753311, y: 1, z: 2.1435447}
   m_Children:
   - {fileID: 1454084937}
   m_Father: {fileID: 861082959}
@@ -18195,6 +18280,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1627542175}
   m_Mesh: {fileID: 4300002, guid: 985cd6d57cb8650408d3496bcdccd54c, type: 3}
+--- !u!114 &1627542180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1627542175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f2ec549f83e049ad8e3a5257fc392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawnPoints: {fileID: 1454084937}
 --- !u!1001 &1632245644
 Prefab:
   m_ObjectHideFlags: 0
@@ -18839,7 +18937,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661834019}
   m_LocalRotation: {x: 0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.93872064, y: -2.1550004, z: 1.0480028}
+  m_LocalPosition: {x: -0.56600153, y: -2.1550043, z: 0.0970016}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 510847486}
@@ -19411,6 +19509,7 @@ GameObject:
   - component: {fileID: 1730411860}
   - component: {fileID: 1730411859}
   - component: {fileID: 1730411858}
+  - component: {fileID: 1730411861}
   m_Layer: 0
   m_Name: ElevatorDown2
   m_TagString: Untagged
@@ -19426,8 +19525,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730411856}
   m_LocalRotation: {x: -0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.94499856, y: 5.465, z: 1.0260001}
-  m_LocalScale: {x: 0.99999994, y: 1.0000019, z: 0.9999991}
+  m_LocalPosition: {x: 1.2696018, y: 5.465, z: 1.1279974}
+  m_LocalScale: {x: 1.2087771, y: 1.0000019, z: 1.7218049}
   m_Children:
   - {fileID: 1540342452}
   m_Father: {fileID: 1711702202}
@@ -19491,6 +19590,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730411856}
   m_Mesh: {fileID: 4300004, guid: 985cd6d57cb8650408d3496bcdccd54c, type: 3}
+--- !u!114 &1730411861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1730411856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5f2ec549f83e049ad8e3a5257fc392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  spawnPoints: {fileID: 1540342452}
 --- !u!1001 &1743311445
 Prefab:
   m_ObjectHideFlags: 0
@@ -22055,8 +22167,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1986670245}
   m_LocalRotation: {x: -0.000000059604645, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.94499856, y: 5.484, z: 1.0739965}
-  m_LocalScale: {x: 0.99999994, y: 1.0000019, z: 0.9999991}
+  m_LocalPosition: {x: 0.99139297, y: 5.484, z: 1.1460027}
+  m_LocalScale: {x: 1.1875033, y: 1.0000019, z: 2.7496843}
   m_Children: []
   m_Father: {fileID: 861082959}
   m_RootOrder: 6
