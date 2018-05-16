@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace UnitySampleAssets._2D
 {
@@ -7,7 +8,9 @@ namespace UnitySampleAssets._2D
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.tag == "Player")
-                Application.LoadLevel(Application.loadedLevelName);
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
     }
 }

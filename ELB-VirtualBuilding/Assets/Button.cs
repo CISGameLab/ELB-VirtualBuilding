@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Button : MonoBehaviour {
 
-	public AudioSource audio;
+	public new AudioSource audio;
 	
 	public void OnTriggerEnter(Collider collider)
 	{

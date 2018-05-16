@@ -36,7 +36,7 @@ namespace UnitySampleAssets.Cameras
         {
             base.Awake();
             // Lock or unlock the cursor.
-            Screen.lockCursor = lockCursor;
+            Cursor.visible = lockCursor;
         }
 
 
@@ -45,13 +45,13 @@ namespace UnitySampleAssets.Cameras
             HandleRotationMovement();
             if (lockCursor && Input.GetMouseButtonUp(0))
             {
-                Screen.lockCursor = lockCursor;
+               Cursor.visible = lockCursor;
             }
         }
 
         private void OnDisable()
         {
-            Screen.lockCursor = false;
+            Cursor.visible = false;
         }
 
         protected override void FollowTarget(float deltaTime)
