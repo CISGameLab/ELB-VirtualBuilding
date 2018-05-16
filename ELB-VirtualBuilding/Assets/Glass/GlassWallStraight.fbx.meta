@@ -248,6 +248,8 @@ ModelImporter:
     3300002: pCube63
     4300000: pCube62
     4300002: pCube63
+    6400000: pCube62
+    6400002: pCube63
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -280,7 +282,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
