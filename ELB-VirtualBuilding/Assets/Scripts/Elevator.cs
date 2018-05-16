@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Elevator : MonoBehaviour {
 
+    public GameObject player;
+    public Transform spawnPoints;
 	public int floorCount;
 	public Vector3[] Levels;
 	private int currentFloor;
@@ -25,4 +27,14 @@ public class Elevator : MonoBehaviour {
 	{
 		transform.position = Vector3.Lerp(Levels[currentFloor-1], Levels[floor-1], 0f);
 	}
+
+    void OnTriggerEnter(Collision col)
+    {
+        if(col.transform.tag == "FirstPersonCharacter")
+        {
+            player = col.transform.parent.gameObject;
+            player.transform.position = spawnPoints.transform.position;
+            player.transform.rotation = spawnPoints.transform.rotation;
+        }
+    }
 }
